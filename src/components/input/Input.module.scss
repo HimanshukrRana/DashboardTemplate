@@ -1,0 +1,12 @@
+.inputBox {
+  @apply px-2 border border-gray-200 rounded-lg w-full ;
+
+  background: #ffff;
+  outline: none;
+  height:40px;
+  &:disabled {
+    cursor: no-drop;
+    background: #f3f3f3;
+    color: #1e293b;
+  }
+}

@@ -18,9 +18,9 @@ export default function SidenavHeader() {
                     }}
                 >
                     <Icon icon="cil:x-circle" width="20" height="20" color="white" />
-                    <Icon icon="uil:bars" width="20" height="20" color="white" />
+                    {/* <Icon icon="uil:bars" width="20" height="20" color="white" /> */}
                 </button>
-                <Icon icon="mdi:home" style={{ fontSize: '24px' }} />
+                {/* <Icon icon="mdi:home" style={{ fontSize: '24px' }} /> */}
             </div>
             <div className="pl-2">
                 <input height="20" type="text" className="bg-[#333333] text-white p-2 rounded-[7px] searchinput" placeholder='Search' icon="search" />
