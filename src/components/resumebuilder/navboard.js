@@ -18,17 +18,16 @@ export default function NavBoard() {
         <Navigation />
       </div>
       <div className="w-[70%] h-full relative">
-        {storeData.navigatetab === "presonalInfo" && <PersonalInfo />}
-
-        {storeData.navigatetab === "education" && <Education />}
-
-        {storeData.navigatetab === "experience" && <Experience />}
-
-        {storeData.navigatetab === "acheivements" && <Achivements />}
-
-        {storeData.navigatetab === "skills" && <Skills />}
-
-        {storeData.navigatetab === "summary" && <Summary />}
+        {storeData.navigatetab ? (
+          (storeData.navigatetab === "presonalInfo" && <PersonalInfo />) ||
+          (storeData.navigatetab === "education" && <Education />) ||
+          (storeData.navigatetab === "experience" && <Experience />) ||
+          (storeData.navigatetab === "acheivements" && <Achivements />) ||
+          (storeData.navigatetab === "skills" && <Skills />) ||
+          (storeData.navigatetab === "summary" && <Summary />)
+        ) : (
+          <PersonalInfo />
+        )}
       </div>
     </div>
   );
