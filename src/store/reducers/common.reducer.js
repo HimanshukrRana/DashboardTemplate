@@ -1,44 +1,42 @@
 import { actionTypes } from "../constants/";
 
 // INITIAL REDUCER STATES
-const initialState = {
-    pipeLine_summary: [],
-};
+const initialState = {};
 
 // REDUCER DATA MAPPING
 const common = (state = initialState, action) => {
-    switch (action.type) {
-        case actionTypes.data_request:
-            return {
-                ...state,
-                [action.keyMapping + "_loader"]: true,
-            };
-        case actionTypes.data_failure:
-            return {
-                ...state,
-                [action.keyMapping + "_loader"]: false,
-            };
-        case actionTypes.data_success + action.keyMapping:
-            return {
-                ...state,
-                [action.keyMapping]: action.data,
-                [action.keyMapping + "_loader"]: false,
-            };
-        case actionTypes.clear_all_data:
-            const { keepKeys } = action;
-            const newState = {};
+  switch (action.type) {
+    case actionTypes.data_request:
+      return {
+        ...state,
+        [action.keyMapping + "_loader"]: true,
+      };
+    case actionTypes.data_failure:
+      return {
+        ...state,
+        [action.keyMapping + "_loader"]: false,
+      };
+    case actionTypes.data_success + action.keyMapping:
+      return {
+        ...state,
+        [action.keyMapping]: action.data,
+        [action.keyMapping + "_loader"]: false,
+      };
+    case actionTypes.clear_all_data:
+      const { keepKeys } = action;
+      const newState = {};
 
-            // Keep specified keys and reset others to their initial state
-            Object.keys(initialState).forEach((key) => {
-                newState[key] = keepKeys.includes(key) ? state[key] : initialState[key];
-            });
+      // Keep specified keys and reset others to their initial state
+      Object.keys(initialState).forEach((key) => {
+        newState[key] = keepKeys.includes(key) ? state[key] : initialState[key];
+      });
 
-            return newState;
+      return newState;
 
-        default:
-            return {
-                ...state,
-            };
-    }
+    default:
+      return {
+        ...state,
+      };
+  }
 };
 export default common;

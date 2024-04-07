@@ -34,7 +34,9 @@ export default function PersonalInfo() {
             // phone: yup.number().required("Phone Number is required"),
           })}
           onSubmit={(values) => {
-            dispatch(updateDataByKey("personalInfo", { ...values }));
+            dispatch(
+              updateDataByKey("resume", { personalInfo: { ...values } })
+            );
             console.log(values, "submitted values");
           }}
         >

@@ -1,6 +1,6 @@
 import { updateDataByKey } from "@/store/actions";
 import { InlineIcon } from "@iconify/react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const menuLinks = [
@@ -41,15 +41,19 @@ const menuLinks = [
   },
 ];
 
-export default function Navigation() {
-  const dispatch = useDispatch();
-  const storeData = useSelector((state) => state.common);
-  console.log(storeData, "storeData");
+export default function Navigation({ activeTab, setActiveTab }) {
+  // const dispatch = useDispatch();
+  // const storeData = useSelector((state) => state.common);
+  // console.log(storeData, "storeData");
 
-  function handletabChange(items) {
-    console.log(items, "tabbass");
-    dispatch(updateDataByKey("navigatetab", items.tab));
-  }
+  // function handletabChange(items) {
+  //   console.log(items, "tabbass");
+  //   dispatch(updateDataByKey("navigatetab", items.tab));
+  // }
+
+  // useEffect(() => {
+  //   dispatch(updateDataByKey("navigatetab", undefined));
+  // }, []);
 
   return (
     <div className="">
@@ -58,7 +62,7 @@ export default function Navigation() {
           <div
             className={`flex  gap-2 p-2 cursor-pointer hover:bg-gray-200 rounded-lg`}
             key={index}
-            onClick={() => handletabChange(items)}
+            onClick={() => setActiveTab(index)}
           >
             <div>
               <InlineIcon

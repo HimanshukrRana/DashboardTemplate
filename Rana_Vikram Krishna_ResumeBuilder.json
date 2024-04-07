@@ -1,0 +1,297 @@
+{
+    "basics": {
+        "name": "Rana Vikram Krishna",
+        "label": "Senior Frontend Developer",
+        "image": "",
+        "email": "consultwithvikram@gmail.com",
+        "phone": "+91 8819018369",
+        "url": "",
+        "summary": "<p>I'm a product-focused JavaScript developer with over 6+ years of experience. My core skills include React.js, React Native. I develop web/ mobile applications using the latest technologies to deliver the product with quality code.</p>",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Mumbai",
+            "countryCode": "",
+            "region": ""
+        },
+        "relExp": "6+ years",
+        "totalExp": "6+ Years",
+        "objective": "<p>Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help Companies introduce time-saving schemes for all executives.</p>",
+        "profiles": [
+            {
+                "network": "linkedin",
+                "username": "vikramkrana",
+                "url": "https://www.linkedin.com/in/vikramkrana/"
+            },
+            {
+                "network": "twitter",
+                "username": "vikramkrana",
+                "url": "https://www.twitter.com/vikramkrana/"
+            },
+            {
+                "network": "github",
+                "username": "vikramkrana",
+                "url": "https://github.com/vikramkrana/"
+            },
+            {
+                "network": "hackerrank",
+                "username": "vikramkrana",
+                "url": ""
+            },
+            {
+                "network": "hackerearth",
+                "username": "vikramkrana",
+                "url": ""
+            },
+            {
+                "network": "codechef",
+                "username": "vikramkrana",
+                "url": ""
+            },
+            {
+                "network": "leetcode",
+                "username": "vikramkrana",
+                "url": ""
+            }
+        ]
+    },
+    "skills": {
+        "languages": [
+            {
+                "name": "JavaScript",
+                "level": 90
+            },
+            {
+                "name": "TypeScript",
+                "level": 80
+            },
+            {
+                "name": "HTML5",
+                "level": 80
+            },
+            {
+                "name": "CSS",
+                "level": 80
+            },
+            {
+                "name": "ReactJs",
+                "level": 85
+            },
+            {
+                "name": "React Native",
+                "level": 72
+            },
+            {
+                "name": "NextJs",
+                "level": 80
+            },
+            {
+                "name": "Tailwindcss",
+                "level": 90
+            }
+        ],
+        "frameworks": [],
+        "technologies": [
+            {
+                "name": "Algorithms",
+                "level": 3
+            },
+            {
+                "name": "Progressive Web Apps",
+                "level": 3
+            },
+            {
+                "name": "SQL",
+                "level": 3
+            },
+            {
+                "name": "Data Structures",
+                "level": 3
+            }
+        ],
+        "libraries": [
+            {
+                "name": "jQuery",
+                "level": 3
+            },
+            {
+                "name": "Redux",
+                "level": 3
+            }
+        ],
+        "databases": [
+            {
+                "name": "Firebase",
+                "level": 3
+            }
+        ],
+        "practices": [
+            {
+                "name": "Component based architecture",
+                "level": 3
+            },
+            {
+                "name": "Agile methodology",
+                "level": 3
+            },
+            {
+                "name": "Design Patterns",
+                "level": 3
+            },
+            {
+                "name": "Test Driven Development",
+                "level": 3
+            },
+            {
+                "name": "MVC",
+                "level": 3
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "level": 3
+            },
+            {
+                "name": "VS Code",
+                "level": 3
+            },
+            {
+                "name": "Jira",
+                "level": 3
+            },
+            {
+                "name": "Bitbucket",
+                "level": 3
+            },
+            {
+                "name": "Adobe Photoshop",
+                "level": 0
+            },
+            {
+                "name": "Figma",
+                "level": 0
+            }
+        ]
+    },
+    "work": [
+        {
+            "id": "0.05565743751968433",
+            "name": "SaaSPay ",
+            "position": "Founding Engineer - SDE-III - Frontend Developer",
+            "startDate": "2022-04-30T18:30:00.000Z",
+            "isWorkingHere": true,
+            "endDate": null,
+            "summary": "<ul><li><em><strong>Led the Frontend Team</strong></em><strong>: </strong>Spearheaded the frontend team at SaaSPay, fostering a culture of collaboration and continuous learning.\n</li><li><em><strong>Full Product Lifecycle Involvement</strong></em><strong>:</strong> Initiated the SaaSPay project from brainstorming and ideation to creating user stories, managing sprints, and overseeing the development of the BNPL (Buy Now, Pay Later) solution.\n</li><li><em><strong>Collaborative Development</strong></em><strong>: </strong>Collaborated with cross-functional teams to seamlessly integrate proof-of-concepts (POC) and code examples into the product's frontend.\n</li><li><em><strong>Mentorship and Guidance</strong></em><strong>: </strong>Provided mentorship and guidance to other developers, fostering their professional growth within a high-performing team.</li></ul>",
+            "url": "",
+            "years": "FinTech Startup",
+            "highlights": [],
+            "image": "https://www.saaspay.com/icons/icon-72x72.png",
+            "link": "https://saaspay.com"
+        },
+        {
+            "id": "0.05565743751968433",
+            "name": "SawoLabs",
+            "position": " Senior Frontend Developer",
+            "startDate": "2021-10-09T09:41:33.000Z",
+            "isWorkingHere": false,
+            "endDate": "2022-05-01T09:42:00.000Z",
+            "summary": "<ul><li><strong><em>Leadership and Mentorship: </em></strong>Led the frontend team at SawoLabs, fostering a culture of collaboration and continuous learning.\n</li><li><strong><em>Full Product Lifecycle Involvement:</em></strong> Played a pivotal role in the entire product development process and overseeing the development of identity management solutions.\n</li><li><strong><em>Optimization and UX Enhancement:</em></strong> Optimized applications for maximum speed and scalability, enhancing user satisfaction.\n</li><li><strong><em>Proactive Learning:</em></strong> Proactively learned and applied new technologies, design practices, and usability patterns, staying ahead of industry trends.</li></ul>",
+            "url": "",
+            "years": "Identity Management Startup",
+            "highlights": [],
+            "image": "https://yt3.googleusercontent.com/ytc/AGIKgqNprfU4ZyMaqD5meEruCmly4R4M2lCTOZ5L0Drn=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://sawolabs.com"
+        },
+        {
+            "id": "0.05565743751968433",
+            "name": "LoanTube",
+            "position": "Software Engineer / React Js / React Native Developer",
+            "startDate": "2021-01-01T09:44:13.000Z",
+            "isWorkingHere": false,
+            "endDate": "2021-11-03T09:44:30.000Z",
+            "summary": "<ul><li><strong><em>Solo Project Management:</em> </strong>Single-handedly managed the entire product development process for web and mobile apps at LoanTube, demonstrating strong technical expertise and project management skills.\n</li><li><strong><em>Standardized Approach: </em></strong>Implemented a standardized, responsive, mobile-first approach and strategy for all output, enhancing accessibility and user engagement.\n</li><li><strong><em>Collaborative Development:</em></strong> Collaborated closely with product team members to incorporate new features and requirements, aligning with project goals and objectives.\n</li><li><strong><em>Agile Methodologies:</em> </strong>Employed agile methodologies and best practices to ensure high-quality, maintainable, and scalable solutions that met or exceeded client expectations.</li></ul>",
+            "url": "",
+            "years": "FinTech Startup",
+            "highlights": [],
+            "image": "https://yt3.googleusercontent.com/cq3C9DvhAY5LEY0aXJaCGEKpV2ZjUAUed4djcDqHrTuV2dLyMsUeq4KHoIXL7JVTRUiRKxzj=s900-c-k-c0x00ffffff-no-rj",
+            "link": "https://loantube.com"
+        },
+        {
+            "id": "0.05565743751968433",
+            "name": "TallyX",
+            "position": " Software Engineer / React Js Developer",
+            "startDate": "2019-05-01T09:48:22.000Z",
+            "isWorkingHere": false,
+            "endDate": "2021-01-01T09:48:30.000Z",
+            "summary": "<ul><li><strong><em>Backend Collaboration:</em> </strong>Collaborated closely with backend developers to integrate REST APIs with UI components, ensuring a dynamic and seamless platform.\n</li><li><strong><em>Meta-Driven UI Engine:</em> </strong>Designed and implemented a Meta (JSON) driven UI engine, significantly accelerating product development and improving overall efficiency.\n</li><li><strong><em>Best Practices:</em></strong> Employed best practices in component-based architecture, enabling easy maintenance and scalability of the web products.\n</li><li><strong><em>Code Quality Assurance:</em></strong> Actively participated in code reviews and provided constructive feedback to improve code quality.</li></ul>",
+            "url": "",
+            "years": "FinTech Startup",
+            "highlights": [],
+            "image": "https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/304739881_538432554751768_2049385099972739544_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vHvuwj28fMAAX_gGhIE&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAFEkWxi3NiBfUQtwl5-n7nvdr5w6TLQnCJoT9Bg71v7Q&oe=64733589",
+            "link": "https://tallyx.com"
+        },
+        {
+            "id": "0.5110539315162806",
+            "name": "Thomson Reuters",
+            "position": "Frontend Web Developer",
+            "startDate": "2018-05-31T18:30:00.000Z",
+            "isWorkingHere": false,
+            "endDate": "2019-03-31T18:30:00.000Z",
+            "summary": "<ul><li><strong><em>Cross-Platform Applications:</em></strong> Developed cross-platform responsive web applications using HTML, SCSS, and JavaScript.\n</li><li><strong><em>Issue Resolution:</em></strong> Collaborated with a team of developers to troubleshoot and resolve front-end and CSS issues.\n</li><li><strong><em>Project Leadership:</em></strong> Led the implementation of a new mainframe development project.\n</li><li><strong><em>Management Updates:</em> </strong>Managed project plans and provided regular status updates to management.</li></ul>",
+            "url": "",
+            "years": "Legal Firm MNC",
+            "highlights": [],
+            "image": "https://companieslogo.com/img/orig/TRI-1c1a5996.png?t=1647958921",
+            "link": "https://www.thomsonreuters.com/"
+        },
+        {
+            "id": "0.5394848468767742",
+            "name": "Freelance",
+            "position": "Web / App Developer",
+            "startDate": "2016-05-31T18:30:00.000Z",
+            "isWorkingHere": false,
+            "endDate": "2018-03-31T18:30:00.000Z",
+            "summary": "<ul><li>Created a React Native application for a <strong>HealthCare</strong> startup, facilitating connections between doctors, nurses, and patients within a comprehensive marketplace.</li><li>Engineered a React Native application for the <strong>RiteMaid</strong> service, streamlining the booking process for professional cleaning services.</li><li>Crafted user-friendly interfaces and enhanced user experiences for the <strong>digital platforms</strong> of various small companies.</li><li>Proficient in <strong>Shopify</strong> and <strong>WordPress</strong> development, with expertise in theme creation and customization.</li></ul>",
+            "url": "",
+            "years": "",
+            "highlights": [],
+            "image": ""
+        }
+    ],
+    "education": [
+        {
+            "id": "1",
+            "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+            "url": "https://www.mit.edu/",
+            "studyType": "Bachelor of Engineering",
+            "area": "Computer Science",
+            "startDate": "2014-06-09T18:30:00.000Z",
+            "isStudyingHere": false,
+            "endDate": "2018-04-29T18:30:00.000Z",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "activities": {
+        "involvements": "",
+        "achievements": "<ul><li>React and redux - A complete guide 2019 from <strong>Udemy</strong></li><li>Best performer award for consistently exceeding the performance - <strong>Tallyx</strong></li><li>Certificate of exceptional bug-finder - <strong>Upwork</strong><br></li></ul>"
+    },
+    "volunteer": [],
+    "awards": [
+        {
+            "title": "Certificate of exceptional bug finder",
+            "date": "2014-11-01",
+            "awarder": "",
+            "summary": "* Recognition zero defect delivery",
+            "id": "1"
+        },
+        {
+            "title": "Certificate of best frontend developer",
+            "date": "2016-11-01",
+            "awarder": "",
+            "summary": "Awarded for exceptional improvements made to improve user experience",
+            "id": "2"
+        }
+    ]
+}
