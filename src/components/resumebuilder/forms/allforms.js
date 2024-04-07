@@ -10,24 +10,23 @@ export default function Allforms({ activeTab }) {
   console.log(activeTab, "activeTab");
   return (
     <div>
-      <div className={`${activeTab === 0 ? "" : "hidden"}`}>
+      {activeTab === 0 ? (
         <PersonalInfo />
-      </div>
-      <div className={`${activeTab === 1 ? "" : "hidden"}`}>
+      ) : activeTab === 1 ? (
         <Education />
-      </div>
-      <div className={`${activeTab === 2 ? "" : "hidden"}`}>
+      ) : activeTab === 2 ? (
         <Experience />
-      </div>
-      <div className={`${activeTab === 3 ? "" : "hidden"}`}>
+      ) : activeTab === 3 ? (
+        ""
+      ) : activeTab === 4 ? (
         <Achivements />
-      </div>
-      <div className={`${activeTab === 4 ? "" : "hidden"}`}>
+      ) : activeTab === 5 ? (
         <Skills />
-      </div>
-      <div className={`${activeTab === 6 ? "" : "hidden"}`}>
+      ) : activeTab === 6 ? (
         <Summary />
-      </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }

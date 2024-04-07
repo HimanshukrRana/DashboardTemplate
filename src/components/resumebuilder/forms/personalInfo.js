@@ -35,7 +35,7 @@ export default function PersonalInfo() {
           })}
           onSubmit={(values) => {
             dispatch(
-              updateDataByKey("resume", { personalInfo: { ...values } })
+              updateDataByKey("resumeData", { personalInfo: { ...values } })
             );
             console.log(values, "submitted values");
           }}
@@ -90,7 +90,7 @@ export default function PersonalInfo() {
                     <div>
                       <InputComponent
                         value={values.phone}
-                        name="phone"
+                        name="Enter Phone Number"
                         onChange={handleChange}
                         placeholder="phone"
                         is_error={errors.phone}
@@ -101,14 +101,14 @@ export default function PersonalInfo() {
                   </div>
                   <div className="py-2 px-8">
                     <div className="mb-1">
-                      <label htmlFor="link">Website link</label>
+                      <label htmlFor="link">Portfolio link</label>
                     </div>
                     <div>
                       <InputComponent
                         value={values.link}
                         name="link"
                         onChange={handleChange}
-                        placeholder="Website link"
+                        placeholder=""
                         is_error={errors.link}
                         errorMessage={errors.link}
                         className=""
@@ -124,7 +124,7 @@ export default function PersonalInfo() {
                         value={values.city}
                         name="city"
                         onChange={handleChange}
-                        placeholder="Website city"
+                        placeholder=""
                         is_error={errors.city}
                         errorMessage={errors.city}
                         className=""
