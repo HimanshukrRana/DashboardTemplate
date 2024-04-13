@@ -9,7 +9,7 @@ import Summary from "./summary";
 export default function Allforms({ activeTab }) {
   console.log(activeTab, "activeTab");
   return (
-    <div>
+    <div className="">
       {activeTab === 0 ? (
         <PersonalInfo />
       ) : activeTab === 1 ? (

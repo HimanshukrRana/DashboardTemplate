@@ -26,7 +26,7 @@ export default function Summary() {
                 dispatch(
                   updateDataByKey("resumeData", {
                     ...storeData.resumeData,
-                    summary: values,
+                    values,
                   })
                 );
               }}
@@ -41,9 +41,6 @@ export default function Summary() {
               }) => {
                 return (
                   <div>
-                    <div className="mb-1">
-                      <label htmlFor="">Summary</label>
-                    </div>
                     <div>
                       {/* <textarea
                         id="details"
@@ -54,14 +51,14 @@ export default function Summary() {
                         onChange={handleChange}
                       /> */}
                       <InputComponent
-                        type="textArea"
                         value={values.summary}
                         name="summary"
                         onChange={handleChange}
-                        placeholder=""
-                        is_error={errors.summary}
-                        errorMessage={errors.summary}
-                        className="px-2 border border-gray-200 rounded-lg w-full h-[140px]"
+                        placeholder={""}
+                        label="Summary"
+                        className=" py-2 !h-[100px]"
+                        type="textarea"
+                        maxLength="200"
                       />
                     </div>
 

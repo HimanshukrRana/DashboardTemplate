@@ -60,7 +60,9 @@ export default function Navigation({ activeTab, setActiveTab }) {
       <div className="p-4 flex flex-col gap-4">
         {menuLinks.map((items, index) => (
           <div
-            className={`flex  gap-2 p-2 cursor-pointer hover:bg-gray-200 rounded-lg`}
+            className={`flex  gap-2 p-2 cursor-pointer hover:bg-gray-200 rounded-lg ${
+              activeTab === index ? "bg-gray-200" : ""
+            }`}
             key={index}
             onClick={() => setActiveTab(index)}
           >

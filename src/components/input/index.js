@@ -45,13 +45,14 @@ const InputComponent = (props) => {
         />
       ) : (
         <div className={wrapClassName}>
-          {/* <label
+          <label
             htmlFor={htmlFor}
-            className={labelClassName ? labelClassName : styles.label}
+            className={labelClassName ? labelClassName : "mb-2"}
           >
-            {label} {isRequired && <span className="text-red-400">*</span>}
+            {label}
+            {/* {isRequired && <span className="text-red-400">*</span>} */}
           </label>
-          <p className="text-sm text-gray-400 mb-1">{subLabel}</p> */}
+          {/* <p className="text-sm text-gray-400 mb-1">{subLabel}</p> */}
           <div className="relative">
             <Component
               defaultValue={value}
