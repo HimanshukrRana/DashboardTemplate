@@ -7,32 +7,31 @@ import InputComponent from "@/components/input";
 import { employmentTypeList } from "@/utils/data/navigation";
 import CreatableSelectComponent from "@/components/input/select";
 
-export default function Experience() {
+export default function Projects() {
   return (
     <div>
       <div>
         <div className="py-4 px-8 border-b border-gray-200">
-          <h1 className="font-bold text-2xl">Experience</h1>
+          <h1 className="font-bold text-2xl">Projects</h1>
         </div>
         <Formik
           enableReinitialize
           initialValues={{
-            company: "",
-            jobtitle: "",
-            employmentType: "",
+            link: "",
+            title: "",
+            associatedwith: "",
             description: "",
             startDate: "",
             endDate: "",
           }}
           validationSchema={yup.object().shape({
-            company: yup.string().required("company is required"),
-            activities: yup.string(),
+            title: yup.string().required("title is required"),
           })}
           onSubmit={(values) => {
             dispatch(
               updateDataByKey("resumeData", {
                 ...storeData.resumeData,
-                experienceInfo: { ...values },
+                projects: { ...values },
               })
             );
             console.log(values, "submitted values");
@@ -52,14 +51,14 @@ export default function Experience() {
                   <div className="py-2 ">
                     <div>
                       <InputComponent
-                        value={values.company}
-                        name="company"
+                        value={values.title}
+                        name="title"
                         onChange={handleChange}
-                        placeholder="Name"
-                        is_error={errors.company}
-                        errorMessage={errors.company}
+                        placeholder="title"
+                        is_error={errors.title}
+                        errorMessage={errors.title}
                         className=""
-                        label="Company Name"
+                        label="Title"
                       />
                     </div>
                   </div>
@@ -97,24 +96,24 @@ export default function Experience() {
                   <div className="py-2 flex gap-6">
                     <div className="mb-3 w-1/2">
                       <InputComponent
-                        value={values.jobtitle}
-                        name="jobtitle"
+                        value={values.link}
+                        name="link"
                         onChange={handleChange}
-                        placeholder=""
-                        is_error={errors.jobtitle}
-                        errorMessage={errors.jobtitle}
+                        placeholder="https://"
+                        is_error={errors.link}
+                        errorMessage={errors.link}
                         className=""
-                        label="JobTitle "
+                        label="Project link"
                       />
                     </div>
                     <div className="mb-3 w-1/2">
                       <CreatableSelectComponent
                         iconName={""}
-                        label={"Employment Type"}
-                        dataList={employmentTypeList}
-                        keyName={"employmentType"}
+                        label={"Associated With"}
+                        dataList={[]}
+                        keyName={"associatedwith"}
                         setFieldValue={setFieldValue}
-                        value={values.employmentType}
+                        value={values.associatedwith}
                         selectContainerClass="!max-w-full w-full"
                         selectControlClass="!bg-white"
                         required={false}

@@ -5,6 +5,7 @@ import Experience from "./experience";
 import Achivements from "./achivement";
 import Skills from "./skills";
 import Summary from "./summary";
+import Projects from "./projects";
 
 export default function Allforms({ activeTab }) {
   console.log(activeTab, "activeTab");
@@ -17,7 +18,7 @@ export default function Allforms({ activeTab }) {
       ) : activeTab === 2 ? (
         <Experience />
       ) : activeTab === 3 ? (
-        ""
+        <Projects />
       ) : activeTab === 4 ? (
         <Achivements />
       ) : activeTab === 5 ? (

@@ -73,9 +73,7 @@ const CreatableSelectComponent = ({
         {required ? (
           <span className="text-red-400">*</span>
         ) : (
-          optional && (
-            <span className="text-gray-400 lowercase">{`(optional)`}</span>
-          )
+          optional && <span className="text-gray-400 lowercase">{``}</span>
         )}
       </label>
       {subTitle && (
